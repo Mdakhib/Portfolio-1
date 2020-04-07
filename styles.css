@@ -220,7 +220,7 @@ label #cancel{
         position: fixed;
         width: 45%;
         height: 70vh;
-        background: black;
+        background: rgb(55,53,53);
         top: 80px;
         left: -50%;
         text-align: center;
