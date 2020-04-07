@@ -134,7 +134,7 @@ label #cancel{
     ul{
         position: fixed;
         width: 45%;
-        height: 100vh;
+        height: 55vh;
         background: black;
         top: 80px;
         left: -50%;
