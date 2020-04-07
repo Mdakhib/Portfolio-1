@@ -7,16 +7,18 @@
 }
 
 nav{
-    height: 100px;
-    background: wheat
+    height: 90px;
+    background: black;
+    width: 100%;
+    /* position: fixed; */
 
 }
 nav img{
     width: 150px;
     position: absolute;
-    padding-top: 6px ;
+    top: -1%;
     left: 7%;
-    height: 90px;
+    height: 110px;
 
 }
 
@@ -27,13 +29,13 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    line-height: 100px;
+    line-height: 87px;
     margin: 0px 70px;
 }
 
 nav ul li a{
     position: relative;
-    color: black;
+    color: white;
     font-weight: 800;
     font-size: 22px;
     text-transform: uppercase;
@@ -46,7 +48,7 @@ nav ul li a:before{
     bottom: 0;
     height: 3px;
     width: 100%;
-    background: black;
+    background: white;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform .5s linear ;
@@ -70,12 +72,19 @@ label #cancel{
     display: none;
 }
 
+.div{
+    top: 14%;
+    background: green;
+    position: absolute;
+    z-index: -1;
+}
+
 
 
 @media (max-width:1125px){
     nav img{
         left: 5%;
-        height: 85px;
+        height: 105px;
         width: 135px;
     }
     
@@ -91,9 +100,9 @@ label #cancel{
 @media (max-width:920px){
     nav img{
         left: 5%;
-        height: 80px;
-        width: 135px;
-        top: 1.6%;
+        height: 100px;
+        width: 125px;
+        top: -0.4%;
 
     }
     nav ul li {
@@ -113,9 +122,9 @@ label #cancel{
 
     nav img{
         left: 15%;
-        height: 70px;
+        height: 88px;
         width: 100px;
-        top: 0.4%;
+        top: -0.5%;
     }
 
     label #btn{
@@ -125,8 +134,8 @@ label #cancel{
     ul{
         position: fixed;
         width: 45%;
-        height: 50vh;
-        background: rgb(187, 185, 189);
+        height: 55vh;
+        background: black;
         top: 80px;
         left: -50%;
         text-align: center;
@@ -149,7 +158,7 @@ label #cancel{
     }
     label #btn,
     label #cancel{
-    color: rgb(226, 116, 116);
+    color: white;
     line-height: 85px;
     margin-right: 30px;
     }
