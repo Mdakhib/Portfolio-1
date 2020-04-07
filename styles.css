@@ -8,9 +8,10 @@
 
 nav{
     height: 90px;
-    background: black;
+    background: rgb(55,53,53);
     width: 100%;
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
 
 }
 nav img{
@@ -72,11 +73,59 @@ label #cancel{
     display: none;
 }
 
-.div{
-    top: 14%;
-    background: green;
-    position: absolute;
-    z-index: -1;
+.home{
+    margin-top: 90px;
+    background: linear-gradient(90deg, #323333 8%, #484844 33%, #525050 66%, #242323 100%);
+    padding: 100px 950px 50px 540px;
+    }
+
+.home img{
+    height: 350px;
+    width: 350px;
+    border-radius: 220px;
+    border: 18px solid rgb(17, 128, 105);
+    margin-left: 76px;  
+    box-shadow:  0 0 35px 26px  rgb(85, 167, 150);
+}
+
+.home .home_border{
+    height: 460px;
+    width: 500px;
+    background: rgb(32, 32, 32);
+    text-align: center;
+    margin-top: -200px;
+    padding-top: 235px;
+    border-radius: 25px;
+    
+}
+
+.home .home_border .hero_name{
+    text-transform: uppercase;
+    font-size: 36px;
+    color: white;
+    padding-top: 20px;
+}
+.home .home_border .hero_job{
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.home_icons{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 40px 0 40px;
+}
+
+#facebook,#twitter,#git,#linkdin,#insta{
+    font-size: 25px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 13px;
+    margin-top: -15px;
 }
 
 
@@ -93,6 +142,42 @@ label #cancel{
     }
     nav ul li a{
         font-size: 19px;
+    }
+
+    .home{
+        padding: 100px 950px 45px 475px;
+        }
+    
+    .home img{
+        width: 340px;
+        margin-left: 80px;  
+        box-shadow:  0 0 30px 28px  rgb(85, 167, 150);
+    }
+    
+    .home .home_border{
+        height: 455px;
+        margin-top: -200px;
+        padding-top: 233px;
+        
+    }
+    
+    .home .home_border .hero_name{
+        font-size: 35px;
+        padding-top: 22px;
+    }
+    .home .home_border .hero_job{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .home_icons{
+        padding-top: 39px;
+        margin: 0 38px 0 38px;
+    }
+    
+    #facebook,#twitter,#git,#linkdin,#insta{
+        font-size: 23px;
+        padding: 12px;
     }
 }
 
@@ -171,5 +256,36 @@ label #cancel{
     }
     #check:checked ~ label #cancel{
         display: block;
+    }
+
+    .home{
+        margin-top: 77px;
+        padding: 85px 950px 45px 460px;
+        }
+    
+    .home .home_border{
+        height: 460px;
+        width: 500px;
+        padding-top: 240px;
+        border-radius: 25px;
+        
+    }
+    
+    .home .home_border .hero_name{
+        font-size: 36px;
+    }
+    .home .home_border .hero_job{
+        font-size: 20px;
+        line-height: 42px;
+    }
+    
+    .home_icons{
+        padding-top: 35px;
+        margin: 0 36px 0 36px;
+    }
+    
+    #facebook,#twitter,#git,#linkdin,#insta{
+        font-size: 23px;
+        margin-top: -15px;
     }
 }
