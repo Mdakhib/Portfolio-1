@@ -210,7 +210,7 @@ label #cancel{
         left: 10%;
         height: 88px;
         width: 100px;
-        top: -0.5%;
+        top: -0.4%;
     }
 
     label #btn{
@@ -265,31 +265,31 @@ label #cancel{
         }
     
     .home img{
-        height: 210px;
-        width: 210px;
+        height: 230px;
+        width: 230px;
         border-radius: 220px;
         border: 12px solid rgb(17, 128, 105);
-        margin-left: 25px;  
+        margin-left: 30px;  
         box-shadow:  0 0 20px 15px  rgb(85, 167, 150);
         margin-right: 60px;
     }
     
     .home .home_border{
-        height: 290px;
-        width: 270px;
-        margin-top: -120px;
+        height: 300px;
+        width: 290px;
+        margin-top: -130px;
         padding-top: 100px;
         border-radius: 15px;
         
     }
     
     .home .home_border .hero_name{
-        font-size: 21px;
-        padding-top: 54px;
+        font-size: 23px;
+        padding-top: 56px;
     }
     .home .home_border .hero_job{
-        font-size: 14px;
-        line-height: 40px;
+        font-size: 15px;
+        line-height: 38px;
     }
     
     .home_icons{
@@ -299,7 +299,7 @@ label #cancel{
     }
     
     #facebook,#twitter,#git,#linkdin,#insta{
-        font-size: 18px;
+        font-size: 20px;
         border-radius: 50px;
         padding: 10px;
     }
@@ -322,22 +322,29 @@ label #cancel{
         
         }
 }
-@media (max-width:500px){
+@media (max-width:545px){
     
     .home{
         padding-left:120px;
         
         }
 }
+@media (max-width:500px){
+    
+    .home{
+        padding-left:100px;
+        
+        }
+}
 @media (max-width:450px){
     
     .home{
-        padding-left:90px;
+        padding-left:75px;
         
         }
 }
 
-@media (max-width:425px){
+@media (max-width:432px){
     
     .home{
         padding-left:65px;
@@ -345,9 +352,16 @@ label #cancel{
         }
 }
 
-@media (max-width:405px){
+@media (max-width:415px){
     
     .home{
         padding-left:50px;
+        padding-right: 100px;
+        }
+}
+@media (max-width:390px){
+    
+    .home{
+        padding-left:40px;
         }
 }
