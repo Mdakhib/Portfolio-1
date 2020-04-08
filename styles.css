@@ -189,9 +189,9 @@ label #cancel{
 }   
 
 .parah{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-left: 80px;
-    /* margin-right: 80px; */
+    margin-right: 80px;
     text-align: start;
     margin-top: 40px;
     line-height: 22px;
@@ -200,7 +200,7 @@ label #cancel{
 }
 
 .parah span{
-    color: rgb(21, 112, 94);
+    color: rgb(41, 177, 150);
     font-weight: 600;
     letter-spacing: 2px;
     font-size: 20px;
@@ -210,6 +210,19 @@ label #cancel{
     background: skyblue;
 }
 
+.pm{
+    /* display: flex; */
+}
+.pb{
+
+}
+.intrest{
+    float: right;
+   
+}
+.in_icons{
+    display: inline-block;
+}
 
 
 @media (max-width:1125px){
