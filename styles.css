@@ -167,10 +167,10 @@ label #cancel{
     font-size: 30px;
     text-transform: capitalize;
     position: relative;
-    cursor: pointer;
+    /* cursor: pointer; */
     color: white;
 }
-.about .about_me .about_hover .abt_name:before{
+/* .about .about_me .about_hover .abt_name:before{
     content: '';
     position: absolute;
     transform: scaleX(0);
@@ -186,7 +186,7 @@ label #cancel{
     transform: scaleX(1);
     transform-origin: left;
     height: 5px;
-}   
+}    */
 
 .parah{
     text-align: start;
@@ -197,7 +197,7 @@ label #cancel{
 }
 
 .parah span{
-    color: rgb(41, 177, 150);
+    color: rgb(36, 177, 149);
     font-weight: 600;
     letter-spacing: 2px;
     font-size: 22px;
@@ -210,51 +210,76 @@ label #cancel{
     background:#323333 ;
     color: white;
     border: 2px solid red;
+    padding-bottom: 30px;
 }
 
-.about_border{
-   /* float: left; */
-   /* padding-left: 50px; */
-    
-}
 .pd_flex{
     display: flex;
     position: relative;
-   
+    padding: 10px 20px 25px 120px;
 }
 .pd_detail{
     position: absolute;
+    font-size: 27px;
+    text-transform: capitalize;
     
     
 }
 .pd{
-    padding-top: 25px;
-    
-    
+    margin-top: 55px;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 35px;
+    color: rgb(36, 177, 149);
+    font-weight: 600;
+}
+#pd_icon{
+    padding-right: 10px;
+    font-size: 16px;
+    color:white;
 }
 .pd_1{
-   padding-top: 25px; 
-    
-   
+    padding-top: 55px;
+    font-size: 20px;
+    padding-left: 60px;
+    line-height: 35px;
 }
- .intrest_icons{
- display: flex;
-    /* grid-template-columns: repeat(4,1fr);  */
-    padding: 0px;
-    justify-content: space-between;
+
+.intrest_name{
+    position: absolute;
+    font-size: 27px;
+    text-transform: capitalize;
+    padding-top: ;
+    
+}
+.intrest_icons{
+    display: flex;
+    padding: 10px 50px 15px 40px;
     flex-wrap: wrap;
     position: relative;
+    
 }
 
 #games,#music,#plane,#bike,#cinema,#coffee,#car,#money{
-    /* padding: 30px; */
     display: block;
+    text-align: center;
+    font-size: 22px;
+    margin-right: 25px;
+    margin-left: 20px;
 }
-.intrest_name{
-    position: absolute;
-}
+
 .intrest_icon_name{
-    padding-top: 25px;
+    margin-top: 55px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background: rgb(43, 42, 42);
+    max-height: 75px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 25px;
+    margin-bottom: -40px;
+
 }
 
 
@@ -309,6 +334,51 @@ label #cancel{
     .parah{
         padding: 40px 80px 50px 100px;
     }
+
+    
+    .pd_flex{
+        padding: 10px 20px 10px 31px;
+    }
+    .pd_detail{
+        font-size: 25px;
+    }
+    .pd{
+        margin-top: 55px;
+        font-size: 19px;
+    }
+
+    #pd_icon{
+        padding-right: 5px;
+    }
+    .pd_1{
+        font-size: 19px;
+        padding-left: 50px;
+    }
+
+    .intrest_name{
+        font-size: 25px;
+    }
+    .intrest_icons{
+        padding: 10px 16px 15px 40px;
+    }
+    
+    #games,#music,#plane,#bike,#cinema,#coffee,#car,#money{
+        font-size: 21px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    
+    .intrest_icon_name{
+        margin-top: 55px;
+        font-size: 18px;
+        padding: 8px 8px 8px 8px;
+        line-height: 38px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    
+    }
+    
 }
 
 
