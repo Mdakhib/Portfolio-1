@@ -189,13 +189,10 @@ label #cancel{
 }   
 
 .parah{
-    /* border: 2px solid green; */
-    margin-left: 80px;
-    margin-right: 80px;
     text-align: start;
-    margin-top: 40px;
+    padding: 40px 90px 50px 120px;
     line-height: 22px;
-    font-size: 18px;
+    font-size: 19px;
     color: white;
 }
 
@@ -203,26 +200,63 @@ label #cancel{
     color: rgb(41, 177, 150);
     font-weight: 600;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 22px;
 } 
 
-.paraaa{
-    background: skyblue;
+
+.about_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background:#323333 ;
+    color: white;
+    border: 2px solid red;
 }
 
-.pm{
-    /* display: flex; */
+.about_border{
+   /* float: left; */
+   /* padding-left: 50px; */
+    
 }
-.pb{
-
-}
-.intrest{
-    float: right;
+.pd_flex{
+    display: flex;
+    position: relative;
    
 }
-.in_icons{
-    display: inline-block;
+.pd_detail{
+    position: absolute;
+    
+    
 }
+.pd{
+    padding-top: 25px;
+    
+    
+}
+.pd_1{
+   padding-top: 25px; 
+    
+   
+}
+ .intrest_icons{
+ display: flex;
+    /* grid-template-columns: repeat(4,1fr);  */
+    padding: 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#games,#music,#plane,#bike,#cinema,#coffee,#car,#money{
+    /* padding: 30px; */
+    display: block;
+}
+.intrest_name{
+    position: absolute;
+}
+.intrest_icon_name{
+    padding-top: 25px;
+}
+
 
 
 @media (max-width:1125px){
@@ -271,6 +305,9 @@ label #cancel{
     #facebook,#twitter,#git,#linkdin,#insta{
         font-size: 23px;
         padding: 12px;
+    }
+    .parah{
+        padding: 40px 80px 50px 100px;
     }
 }
 
@@ -392,6 +429,14 @@ label #cancel{
         border-radius: 50px;
         padding: 10px;
     }
+    .parah{
+        padding: 40px 65px 50px 90px;
+        font-size: 18px;
+    }
+    .parah span{
+        letter-spacing: 1.5px;
+        font-size: 21px;
+    } 
     
 
 
@@ -432,6 +477,16 @@ label #cancel{
             border-radius: 50px;
             padding: 10px;
         }
+        .parah{
+            text-align: center;
+            padding: 30px 55px 50px 60px;
+            font-size: 17px;
+        }
+        .parah span{
+            letter-spacing: 1px;
+            font-size: 22px;
+        } 
+        
         
 }
 
@@ -449,6 +504,12 @@ label #cancel{
         padding-top: 145px;
         margin-top: -142px;
         }
+        .parah{
+            padding: 25px 53px 50px 55px;
+        }
+        .parah span{
+            font-size: 21px;
+        } 
 }
 
 @media (max-width:320px){
@@ -485,6 +546,10 @@ label #cancel{
             font-size: 20px;
             border-radius: 50px;
             padding: 10px;
+        }
+        .parah{
+            text-align: start;
+            padding: 25px 45px 50px 40px;
         }
         
 }
