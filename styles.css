@@ -381,6 +381,95 @@ label #cancel{
     
 }
 
+@media (max-width:857px){
+
+    .about_grid {
+    all:unset;
+    background:#323333 ;
+    /* color: white; */
+    /* border: 2px solid red; */
+    /* padding-bottom: 30px; */
+    
+
+    }
+
+    .about_grid{
+        background:#323333 ;
+        /* color: white; */
+        border: 2px solid red;
+        /* padding-bottom: 30px; */
+    }
+    
+    .pd_flex{
+        /* display: flex; */
+        /* position: relative; */
+        /* padding: 10px 20px 25px 220px; */
+    }
+    .pd_detail{
+        /* position: absolute; */
+        /* font-size: 27px; */
+        text-transform: capitalize;
+        
+        
+    }
+    .pd{
+        /* margin-top: 55px; */
+        /* font-size: 20px; */
+        text-transform: capitalize;
+        /* line-height: 35px; */
+        color: rgb(36, 177, 149);
+        /* font-weight: 600; */
+    }
+    #pd_icon{
+        /* padding-right: 10px; */
+        font-size: 16px;
+        color:white;
+    }
+    .pd_1{
+        /* padding-top: 55px; */
+        font-size: 20px;
+        /* padding-left: 60px; */
+        line-height: 35px;
+    }
+    
+    .intrest_name{
+        /* position: absolute; */
+        font-size: 27px;
+        text-transform: capitalize;
+        
+    }
+    .intrest_icons{
+        /* display: flex; */
+        /* padding: 10px 50px 15px 40px; */
+        /* flex-wrap: wrap; */
+        /* position: relative; */
+        
+    }
+    
+    #games,#music,#plane,#bike,#cinema,#coffee,#car,#money{
+        /* display: block; */
+        /* text-align: center; */
+        font-size: 22px;
+        /* margin-right: 25px; */
+        /* margin-left: 20px; */
+    }
+    
+    .intrest_icon_name{
+        /* margin-top: 55px; */
+        font-size: 20px;
+        text-transform: capitalize;
+        background: rgb(43, 42, 42);
+        max-height: 75px;
+        /* padding: 10px 10px 10px 10px; */
+        /* text-align: center; */
+        /* line-height: 40px; */
+        /* margin-right: 25px; */
+        /* margin-bottom: -40px; */
+    
+    }
+    
+}
+
 
 @media (max-width:920px){
     nav img{
