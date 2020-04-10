@@ -210,7 +210,6 @@ label #cancel{
     grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
     background:#323333 ;
     color: white;
-    border: 2px solid red;
     padding-bottom: 30px;
     /* grid-gap: 10px; */
     /* overflow: hidden; */
