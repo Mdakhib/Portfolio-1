@@ -286,8 +286,177 @@ label #cancel{
     margin-bottom: -40px;
 
 }
+.doc{
+    text-align: center;
+    padding-bottom: 20px;
+    background:#323333;
+    padding-top: 15px;
+}
+#down{
+    padding-left: 5px;
+    color: white;
+}
 
+.download a{
+    color: white;
+}
 
+.download{
+    
+    background:#323333;
+    padding: 15px 20px 15px 20px ;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.skills_head{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background: rgb(35,38,47);
+}
+#skil_icon{
+    font-size: 25px;
+    color: white;
+    border: 1px solid rgb(82, 82, 240);
+    background:rgb(82, 82, 240);
+    padding: 3px 11px 3px 11px;
+    border-radius: 10px;
+}
+
+.skil_name{
+    padding-top: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.center{
+    background: rgb(35,38,47);
+    color: white;
+    text-align: start;
+    padding: 40px 20px 20px 125px;
+
+}
+
+.software{
+    font-size: 28px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+.skillbox{
+    width: 85%;
+    margin: 20px 0px;
+}
+.skillbox p{
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.skillbox p:nth-child(2){
+    float: right;
+    position: relative;
+    top: -27px;
+}
+.skill{
+    background: #3d3d3d;
+    padding: 3px;
+    border: 2px solid rgb(37,167,144);
+    border-radius: 6px;
+    
+}
+.skill_level_1{
+    background: rgb(37,167,144);
+    width: 0%;
+    height: 10px;
+    animation-name: bar1;
+    animation-duration: 6.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+}
+@keyframes bar1{
+    to{
+        width: 50%;
+    }
+}
+
+.skill_level_2{
+    background: rgb(37,167,144);
+    width: 0%;
+    height: 10px;
+    animation-name: bar2;
+    animation-duration: 6.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes bar2{
+    to{
+        width: 35%;
+    }
+}
+.skill_level_3{
+    background: rgb(37,167,144);
+    width: 0%;
+    height: 10px;
+    animation-name: bar3;
+    animation-duration: 6.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes bar3{
+    to{
+        width: 45%;
+    }
+}
+.skill_level_4{
+    background: rgb(37,167,144);
+    width: 0%;
+    height: 10px;
+    animation-name: bar4;
+    animation-duration: 6.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes bar4{
+    to{
+        width: 90%;
+    }
+}
+.skill_level_5{
+    background: rgb(37,167,144);
+    width: 0%;
+    height: 10px;
+    animation-name: bar5;
+    animation-duration: 6.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes bar5{
+    to{
+        width: 80%;
+    }
+}
+
+.skill_level_6{
+    background: rgb(37,167,144);
+    width: 0%;
+    height: 10px;
+    animation-name: bar6;
+    animation-duration: 6.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes bar6{
+    to{
+        width: 25%;
+    }
+}
 
 @media (max-width:1125px){
     nav img{
@@ -598,8 +767,85 @@ label #cancel{
     
     }
     
+    #down{
+        padding-left: 3px;
+        color: white;
+    }
+    
+    .download a{
+        color: white;
+    }
+    
+    .download{
+        padding: 10px 15px 10px 15px ;
+        font-size: 16px;
+        border-radius: 20px;
+    }
 
+    .skills_head{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        background: rgb(35,38,47);
+    }
+    #skil_icon{
+        font-size: 22px;
+        color: white;
+        border: 1px solid rgb(82, 82, 240);
+        background:rgb(82, 82, 240);
+        padding: 3px 8px 3px 8px;
+        border-radius: 10px;
+    }
+    .skillbox p:nth-child(2){
+        top: -24px;
+    }
+    .skil_name{
+        padding-top: 10px;
+        font-size: 28px;
+        text-transform: capitalize;
+        color: white;
+    }
 
+    .center{
+        padding: 30px 20px 20px 50px;
+    }
+    
+    .software{
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+    .skillbox{
+        width: 85%;
+        margin: 20px 0px;
+    }
+    .skillbox p{
+        font-size: 17px;
+        margin: 0 0 5px;
+    }
+    
+    .skill{
+        padding: 2px;
+    }
+
+    .skill_level_1{
+        height: 8px;
+    }
+
+    .skill_level_2{
+        height: 8px;
+    }
+    .skill_level_3{
+        height: 8px;
+    }
+    .skill_level_4{
+        height: 8px;
+    }
+    .skill_level_5{
+        height: 8px;
+    }
+    .skill_level_6{
+        height: 8px;
+    }
 }
 
 
