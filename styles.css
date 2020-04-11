@@ -518,7 +518,7 @@ label #cancel{
     }
     
     .pd_flex{
-        padding: 10px 40px 10px 31px;
+        padding: 10px 35px 10px 28px;
     }
     .pd_detail{
         font-size: 25px;
@@ -562,7 +562,7 @@ label #cancel{
     
 }
 
-@media (max-width:930px){
+@media (max-width:905px){
     .pd_flex{
         display: flex;
         justify-content: center;
