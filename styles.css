@@ -307,7 +307,7 @@ label #cancel{
     padding: 15px 20px 15px 20px ;
     font-size: 18px;
     border-radius: 25px;
-    border: 1px solid white;
+    border: 1px solid rgb(36, 177, 149);
 }
 
 .skills_head{
@@ -321,7 +321,7 @@ label #cancel{
     color: white;
     border: 1px solid rgb(82, 82, 240);
     background:rgb(82, 82, 240);
-    padding: 3px 11px 3px 11px;
+    padding: 3px 13px 3px 13px;
     border-radius: 10px;
 }
 
@@ -562,7 +562,7 @@ label #cancel{
     
 }
 
-@media (max-width:909px){
+@media (max-width:905px){
     .pd_flex{
         display: flex;
         justify-content: center;
@@ -807,16 +807,16 @@ label #cancel{
     }
 
     .center{
-        padding: 30px 20px 20px 50px;
+        padding: 25px 20px 20px 50px;
     }
     
     .software{
         font-size: 26px;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
     }
     .skillbox{
         width: 85%;
-        margin: 20px 0px;
+        margin: 10px 0px;
     }
     .skillbox p{
         font-size: 17px;
