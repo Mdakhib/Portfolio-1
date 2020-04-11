@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://kit.fontawesome.com/02fc8e9652.js" crossorigin="anonymous"></script>
 </head>
@@ -17,13 +18,13 @@
         </label>
         <img src="images/mda_logo.png" alt="">
         <ul>
-            <li> <a href="#">Home</a> </li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact</a></li>
+            <li> <a href="#Home">Home</a> </li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
-    <div class="home">
+    <div class="home" id="Home">
             <img src="images/mda_pic.jpeg" alt="Akhib picture" class="hero_pic">
             <div class="sec">
             <div class="home_border">   
@@ -39,15 +40,17 @@
             </div>
         </div> 
     </div>
-    <div class="about">
-        <div class="about_me">
+    <div class="background_for_about" id="About">
+    <div class="about" >
+        <div class="about_me" >
             <i class="fa fa-info" aria-hidden="true" id="info"></i>
             <div class="about_hover">
             <h2 class="abt_name">about me</h2>
             </div>
-        </div>
+        </div >
         <p class="parah"><span> Hello! I'm Mohamed Akhib,</span> a front-end web developer based in Bangalore, currently pursuing bachelor's degree in Computer Science & Engineering at Visvesvaraya Technological University. Being very fond of coding, I'm looking forward to work in-hand with the organizations which provide an intution of collective belonging, responsibility and an environment that nurtutres the ideas of creativity.</p>
     </div>
+   
     <div class="about_grid">
         <div class="pd_flex">
                 <h3 class="pd_detail">personal   details</h3>
@@ -82,7 +85,8 @@
     <div class="doc">
     <button class="download"> <a href="document/Akhib resume.pdf" target="_blank" >Download CV<i class="fa fa-download" id="down"></i></a></button>
     </div>  
-    <div class="skills_head">
+</div>
+    <div class="skills_head" id="Skills">
         <i class="fas fa-sliders-h" id="skil_icon"></i>
         <!-- <div class="about_hover"> -->
         <h2 class="skil_name">skills</h2>
@@ -91,14 +95,14 @@
         <h2 class="software">software skills</h2>
         <div class="skillbox">
             <p>C</p>
-            <p>50%</p>
+            <p>35%</p>
             <div class="skill">
                 <div class="skill_level_1"></div>
             </div>
         </div>
         <div class="skillbox">
             <p>C++</p>
-            <p>35%</p>
+            <p>30%</p>
             <div class="skill">
                 <div class="skill_level_2"></div>
             </div>
@@ -130,6 +134,25 @@
             <div class="skill">
                 <div class="skill_level_6"></div>
             </div>
+        </div>
+    </div>
+
+    <div class="footer" id="Contact">
+        <div class="contact_us">
+            <p class="hit_me">hit me up...</p>
+            <div class="footer_icons">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" id="footer_insta"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter" id="footer_twitter"></i></a>
+                <a href="https://github.com/Mdakhib" target="_blank"><i class="fab fa-github" id="footer_git"></i></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in" id="footer_linkdin"></i></a>
+            </div>
+
+            <a href="https://mail.google.com/mail/u/0/#inbox"><button class="btn1">mohamedakhib@gmail.com <span class="btn_spn">say hi👋</span></button></a>
+            <p class="footer_num"></span><i class="fas fa-phone-alt" id="footer_pd_icon"></i>+91 9036420485</p>
+            <p class="footer_num"></span><i class='fas fa-map-marker-alt' id="footer_pd_icon"></i>Pandavapura,Mandya-District,karnataka 571434</p>
+            <div class="cop">
+            <p class="copyright"> <span class="copy">&copy; </span>2019-20 mohamed akhib</p>
+        </div>
         </div>
     </div>
 </body>

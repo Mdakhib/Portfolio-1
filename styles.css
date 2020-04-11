@@ -4,11 +4,19 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style:none ;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.background_for_about{
+  background: rgb(29,33,36);
 }
 
 nav{
     height: 90px;
-    background: rgb(55,53,53);
+    background: rgb(29,32,37);
     width: 100%;
     position: fixed;
     top: 0;
@@ -147,7 +155,7 @@ label #cancel{
 }
 
 .about{
-    background-color: #323333;
+   
     max-width: 100vw;
     text-align: center;
     padding-top: 55px;
@@ -170,23 +178,7 @@ label #cancel{
     /* cursor: pointer; */
     color: white;
 }
-/* .about .about_me .about_hover .abt_name:before{
-    content: '';
-    position: absolute;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.5s linear;
-    background: rgb(24, 163, 135);
-    bottom: 0;
-    width: 8.5%;
-    height: 3px;
-    }
 
-.about .about_me .about_hover .abt_name:hover:before{
-    transform: scaleX(1);
-    transform-origin: left;
-    height: 5px;
-}    */
 
 .parah{
     text-align: start;
@@ -208,7 +200,6 @@ label #cancel{
     display: grid;
     /* grid-template-columns: repeat(2,1fr); */
     grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
-    background:#323333 ;
     color: white;
     padding-bottom: 30px;
     /* grid-gap: 10px; */
@@ -289,7 +280,6 @@ label #cancel{
 .doc{
     text-align: center;
     padding-bottom: 20px;
-    background:#323333;
     padding-top: 15px;
 }
 #down{
@@ -303,7 +293,7 @@ label #cancel{
 
 .download{
     
-    background:#323333;
+    background:rgb(29,33,36);
     padding: 15px 20px 15px 20px ;
     font-size: 18px;
     border-radius: 25px;
@@ -382,7 +372,7 @@ label #cancel{
 }
 @keyframes bar1{
     to{
-        width: 50%;
+        width: 35%;
     }
 }
 
@@ -397,7 +387,7 @@ label #cancel{
 }
 @keyframes bar2{
     to{
-        width: 35%;
+        width: 30%;
     }
 }
 .skill_level_3{
@@ -456,6 +446,77 @@ label #cancel{
     to{
         width: 25%;
     }
+}
+
+.footer{
+    text-align: center;
+    background: linear-gradient(90deg, #323333 8%, #484844 33%, #525050 66%, #242323 100%);
+    padding: 25px 0 0 0 ;
+}
+
+.footer .contact_us .hit_me{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(31, 233, 4);
+    letter-spacing: 1px;
+}
+
+.footer_icons{
+    padding: 20px 0 0 0;
+}
+
+#footer_insta,#footer_twitter,#footer_git,#footer_linkdin{
+    font-size: 28px;
+    color: white;
+    margin: 0 15px 0 5px;
+    padding: 0 0 30px;
+}
+.btn1{
+    font-size: 22px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #323333 8%, #484844 33%, #525050 66%, #242323 100%);
+    border:0.5px solid rgb(36, 177, 149);
+    padding: 12px;
+    border-radius: 15px;
+    color: white;
+    box-shadow:  0 0 5px 5px  rgb(85, 167, 150);
+    margin-bottom: 13px;
+}
+.btn_spn{
+    text-transform: uppercase;
+    padding-left: 10px;
+    color: rgb(36, 177, 149);
+    font-weight: bold;
+    
+}
+
+.footer_num{
+    color: white;
+    font-size: 19px;
+    letter-spacing: 2px;
+    padding: 8px 0 0 0;
+    text-transform: capitalize;
+}
+#footer_pd_icon{
+    color: red;
+    padding-right: 10px;
+}
+
+.cop{
+    padding-top: 15px;
+    
+}
+.copyright{
+    border-top:2px solid rgb(72, 177, 156);
+    margin: 0 40px 0 40px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: white;
+    padding: 5px 0 5px 0;
+}
+.copy{
+    font-size: 20px;
 }
 
 @media (max-width:1125px){
@@ -620,7 +681,7 @@ label #cancel{
         position: fixed;
         width: 45%;
         height: 70vh;
-        background: rgb(55,53,53);
+        background: rgb(29,32,37);
         top: 80px;
         left: -50%;
         text-align: center;
@@ -846,6 +907,62 @@ label #cancel{
     .skill_level_6{
         height: 8px;
     }
+    .footer{
+        padding: 20px 0 0 0 ;
+    }
+    
+    .footer .contact_us .hit_me{
+        font-size: 26px;
+    }
+    
+    .footer_icons{
+        padding: 12px 0 0 0;
+    }
+    
+    #footer_insta,#footer_twitter,#footer_git,#footer_linkdin{
+        font-size: 26px;
+        margin: 0 15px 0 5px;
+        padding: 0 0 18px;
+    }
+    .btn1{
+        font-size: 16px;
+        border:0.5px solid rgb(36, 177, 149);
+        padding: 10px;
+        border-radius: 12px;
+        margin-bottom: 13px;
+    }
+    .btn_spn{
+        padding-left: 10px;
+        
+    }
+    
+    .footer_num{
+        color: white;
+        font-size: 14px;
+        letter-spacing: 2px;
+        padding: 3px 0 0 0;
+    }
+    #footer_pd_icon{
+        color: red;
+        padding-right: 3px;
+    }
+    
+    .cop{
+        padding-top: 10px;
+        
+    }
+    .copyright{
+        border-top:2px solid rgb(72, 177, 156);
+        margin: 0 20px 0 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        color: white;
+        padding: 3px 0 5px 0;
+    }
+    .copy{
+        font-size: 18px;
+    }
+    
 }
 
 
@@ -952,6 +1069,61 @@ label #cancel{
             margin-bottom: -10px;
         
         }
+        .footer{
+        padding: 18px 0 0 0 ;
+    }
+    
+    .footer .contact_us .hit_me{
+        font-size: 24px;
+    }
+    
+    .footer_icons{
+        padding: 12px 0 0 0;
+    }
+    
+    #footer_insta,#footer_twitter,#footer_git,#footer_linkdin{
+        font-size: 22px;
+        margin: 0 10px 0 5px;
+        padding: 0 0 16px;
+    }
+    .btn1{
+        font-size: 12px;
+        border:0.5px solid rgb(36, 177, 149);
+        padding: 8px;
+        border-radius: 12px;
+        margin-bottom: 13px;
+    }
+    .btn_spn{
+        padding-left: 5px;
+        
+    }
+    
+    .footer_num{
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 2.5px 0 0 0;
+    }
+    #footer_pd_icon{
+        color: red;
+        padding-right: 3px;
+    }
+    
+    .cop{
+        padding-top: 7px;
+        
+    }
+    .copyright{
+        border-top:1.5px solid rgb(72, 177, 156);
+        margin: 0 20px 0 20px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: white;
+        padding: 2px 0 6px 0;
+        font-size: 11px;
+    }
+    .copy{
+        font-size: 15px;
+    }
         
         
 }
