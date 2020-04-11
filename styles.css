@@ -562,7 +562,7 @@ label #cancel{
     
 }
 
-@media (max-width:912px){
+@media (max-width:930px){
     .pd_flex{
         display: flex;
         justify-content: center;
