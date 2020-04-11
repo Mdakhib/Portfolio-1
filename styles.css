@@ -84,6 +84,7 @@ label #cancel{
 
 .homeborder{
     background: rgb(29,32,37);
+    width: 100%;
 }
 
 .home{
@@ -326,11 +327,17 @@ label #cancel{
     color: white;
 }
 
-.center{
+.center_background{
     background: rgb(35,38,47);
+    width: 100%;
+}
+
+.centre{
+
     color: white;
     text-align: start;
     padding: 40px 20px 20px 125px;
+    
 
 }
 
@@ -454,7 +461,7 @@ label #cancel{
 
 .footer{
     text-align: center;
-    background: linear-gradient(90deg, #323333 8%, #484844 33%, #525050 66%, #242323 100%);
+    background: rgb(29,32,37);
     padding: 25px 0 0 0 ;
 }
 
