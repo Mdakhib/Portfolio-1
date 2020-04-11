@@ -82,14 +82,10 @@ label #cancel{
     display: none;
 }
 
-.homeborder{
-    background: rgb(29,32,37);
-    width: 100%;
-}
 
 .home{
     margin-top: 90px;
-  
+    background: rgb(29,32,37);
     padding: 90px 0px 50px 0px;
     text-align: center;
 
@@ -215,7 +211,7 @@ label #cancel{
 .pd_flex{
     display: flex;
     position: relative;
-    padding: 10px 20px 25px 120px;
+    padding: 10px 20px 25px 60px;
     overflow: hidden;
 }
 .pd_detail{
@@ -327,13 +323,9 @@ label #cancel{
     color: white;
 }
 
-.center_background{
+
+.center{
     background: rgb(35,38,47);
-    width: 100%;
-}
-
-.centre{
-
     color: white;
     text-align: start;
     padding: 40px 20px 20px 125px;
@@ -879,7 +871,7 @@ label #cancel{
     }
 
     .center{
-        padding: 25px 20px 20px 50px;
+        padding: 40px 20px 20px 25px;
     }
     
     .software{
