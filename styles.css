@@ -589,15 +589,15 @@ label #cancel{
     }
     .pd{
         margin-top: 55px;
-        font-size: 19px;
+        font-size: 16px;
     }
 
     #pd_icon{
         padding-right: 3px;
     }
     .pd_1{
-        font-size: 19px;
-        padding-left: 50px;
+        font-size: 16px;
+        padding-left: 45px;
     }
 
     .intrest_name{
@@ -616,7 +616,7 @@ label #cancel{
     
     .intrest_icon_name{
         margin-top: 55px;
-        font-size: 18px;
+        font-size: 16px;
         padding: 8px 8px 8px 8px;
         line-height: 38px;
         margin-right: 20px;
@@ -871,7 +871,7 @@ label #cancel{
     }
 
     .center{
-        padding: 40px 20px 20px 25px;
+        padding: 40px 20px 20px 30px;
     }
     
     .software{
