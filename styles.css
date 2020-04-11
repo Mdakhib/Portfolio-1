@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style:none ;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html{
@@ -82,9 +82,13 @@ label #cancel{
     display: none;
 }
 
+.homeborder{
+    background: rgb(29,32,37);
+}
+
 .home{
     margin-top: 90px;
-    background: linear-gradient(90deg, #323333 8%, #484844 33%, #525050 66%, #242323 100%);
+  
     padding: 90px 0px 50px 0px;
     text-align: center;
 
@@ -115,7 +119,7 @@ label #cancel{
 .home .home_border{
     height: 460px;
     width: 500px;
-    background: rgb(32, 32, 32);
+    background: rgb(49, 49, 49);
     text-align: center;
     margin-top: -180px;
     padding-top: 235px;

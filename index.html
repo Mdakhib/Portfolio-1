@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://kit.fontawesome.com/02fc8e9652.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <nav>
@@ -24,10 +26,11 @@
             <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
-    <div class="home" id="Home">
-            <img src="images/mda_pic.jpeg" alt="Akhib picture" class="hero_pic">
+    <div class="homeborder">
+    <div class="home" id="Home" data-aos="zoom-in-down" data-aos-duration="3000" >
+            <img src="images/mda_pic.jpeg" alt="Akhib picture" class="hero_pic" >
             <div class="sec">
-            <div class="home_border">   
+            <div class="home_border" >   
                     <h1 class="hero_name">mohamed Akhib</h1>
                     <p class="hero_job">front-end web developer</p>
                 <div class="home_icons">
@@ -40,6 +43,7 @@
             </div>
         </div> 
     </div>
+</div>
     <div class="background_for_about" id="About">
     <div class="about" >
         <div class="about_me" >
@@ -48,11 +52,15 @@
             <h2 class="abt_name">about me</h2>
             </div>
         </div >
-        <p class="parah"><span> Hello! I'm Mohamed Akhib,</span> a front-end web developer based in Bangalore, currently pursuing bachelor's degree in Computer Science & Engineering at Visvesvaraya Technological University. Being very fond of coding, I'm looking forward to work in-hand with the organizations which provide an intution of collective belonging, responsibility and an environment that nurtutres the ideas of creativity.</p>
+        <p class="parah" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000" ><span> Hello! I'm Mohamed Akhib,</span> a front-end web developer based in Bangalore, currently pursuing bachelor's degree in Computer Science & Engineering at Visvesvaraya Technological University. Being very fond of coding, I'm looking forward to work in-hand with the organizations which provide an intution of collective belonging, responsibility and an environment that nurtutres the ideas of creativity.</p>
     </div>
    
     <div class="about_grid">
-        <div class="pd_flex">
+        <div class="pd_flex" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
                 <h3 class="pd_detail">personal   details</h3>
             <div class="pd">
                 <p><i class='fas fa-calendar-alt' id="pd_icon"></i>birthday</p>
@@ -70,7 +78,9 @@
         </div>
     
 
-        <div class="intrest_icons">
+        <div class="intrest_icons" data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <h3 class="intrest_name">my intrest</h3>
             <p class="intrest_icon_name"><i class='fas fa-gamepad' id="games"></i> games</p>
             <p class="intrest_icon_name"><i class='fas fa-headphones' id="music"></i>music</p>
@@ -82,7 +92,7 @@
             <p class="intrest_icon_name"><i class="fa fa-money" id="money"></i>money</p>
         </div>
     </div>
-    <div class="doc">
+    <div class="doc" data-aos="zoom-in-down">
     <button class="download"> <a href="document/Akhib resume.pdf" target="_blank" >Download CV<i class="fa fa-download" id="down"></i></a></button>
     </div>  
 </div>
@@ -155,5 +165,9 @@
         </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
