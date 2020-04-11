@@ -634,7 +634,7 @@ label #cancel{
     }
     #footer_pd_icon{
         color: red;
-        padding-right: 3px;
+        padding-right: 5px;
     }
     
     .cop{
@@ -649,6 +649,7 @@ label #cancel{
         color: white;
         padding: 3px 0 5px 0;
         font-size: 11px;
+        
     }
     .copy{
         font-size: 15px;
