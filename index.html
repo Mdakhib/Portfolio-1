@@ -28,12 +28,12 @@
     </nav>
     
     <div class="home" id="Home" >
-            <img src="images/mda_pic.jpeg" alt="Akhib picture" class="hero_pic" >
+            <img src="images/mda_pic.jpeg" alt="Akhib picture" class="hero_pic" data-aos="zoom-out" data-aos-duration="2000" >
             <div class="sec">
-            <div class="home_border" >   
+            <div class="home_border" data-aos="zoom-out" data-aos-duration="2000">   
                     <h1 class="hero_name">mohamed Akhib</h1>
                     <p class="hero_job">front-end web developer</p>
-                <div class="home_icons">
+                <div class="home_icons" data-aos="flip-up" data-aos-duration="2000">
                     <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" id="facebook"></i></a>
                     <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter" id="twitter"></i></a>
                     <a href="https://github.com/Mdakhib" target="_blank"><i class="fab fa-github" id="git"></i></a>
@@ -45,14 +45,15 @@
     </div>
 
     <div class="background_for_about" id="About">
-    <div class="about" >
+    <div class="about" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="2500">
         <div class="about_me" >
             <i class="fa fa-info" aria-hidden="true" id="info"></i>
             <div class="about_hover">
             <h2 class="abt_name">about me</h2>
             </div>
         </div >
-        <p class="parah"  ><span> Hello! I'm Mohamed Akhib,</span> a front-end web developer based in Bangalore, currently pursuing bachelor's degree in Computer Science & Engineering at Visvesvaraya Technological University. Being very fond of coding, I'm looking forward to work in-hand with the organizations which provide an intution of collective belonging, responsibility and an environment that nurtutres the ideas of creativity.</p>
+        <p class="parah"  ><span> Hello! I'm Mohamed Akhib,</span> a front-end web developer based in Bangalore, currently pursuing bachelor's degree in Computer Science & Engineering at Ghousia College Of Engineering Affiliated to Visvesvaraya Technological University. My expertise is in the area of responsive design. With every line of code, I strive to make the web a beautiful place.Being very fond of coding, I'm looking forward to work in-hand with the organizations which provide an intution of collective belonging, responsibility  that nurtutres the ideas of creativity.</p>
     </div>
    
     <div class="about_grid">
@@ -90,16 +91,19 @@
     <button class="download"> <a href="document/Akhib resume.pdf" target="_blank" >Download CV<i class="fa fa-download" id="down"></i></a></button>
     </div>  
 </div>
-    <div class="skills_head" id="Skills">
-        <i class="fas fa-sliders-h" id="skil_icon"></i>
+   <div class="skills_background" >
+    <div class="skills_head" id="Skills" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom"  data-aos-duration="3000" >
+        <i class="fas fa-sliders-h" id="skil_icon" ></i>
         <!-- <div class="about_hover"> -->
         <h2 class="skil_name">skills</h2>
     </div>
-        <div class="center"  >
-        <h2 class="software">software skills</h2>
+        <div class="center" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"  data-aos-duration="2500" >
+        <h2 class="software" >software skills</h2>
         <div class="skillbox">
             <p>C</p>
-            <p>35%</p>
+            <p>50%</p>
             <div class="skill">
                 <div class="skill_level_1"></div>
             </div>
@@ -120,14 +124,14 @@
         </div>
         <div class="skillbox">
             <p>Html5</p>
-            <p>90%</p>
+            <p>88%</p>
             <div class="skill">
                 <div class="skill_level_4"></div>
             </div>
         </div>
         <div class="skillbox">
             <p>CSS3</p>
-            <p>80%</p>
+            <p>75%</p>
             <div class="skill">
                 <div class="skill_level_5"></div>
             </div>
@@ -139,9 +143,18 @@
                 <div class="skill_level_6"></div>
             </div>
         </div>
+        <div class="skillbox">
+            <p>Git</p>
+            <p>80%</p>
+            <div class="skill">
+                <div class="skill_level_7"></div>
+            </div>
+        </div>
     </div>
-
-    <div class="footer" id="Contact">
+</div>
+  <div class="footer_head">
+    <div class="footer" id="Contact" data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom"  data-aos-duration="2500" >
         <div class="contact_us">
             <p class="hit_me">hit me up...</p>
             <div class="footer_icons">
@@ -159,6 +172,7 @@
         </div>
         </div>
     </div>
+</div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

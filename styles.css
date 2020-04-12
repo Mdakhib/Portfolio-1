@@ -301,11 +301,15 @@ label #cancel{
     border: 1px solid rgb(36, 177, 149);
 }
 
+.skills_background{
+    background: rgb(35,38,47);
+}
+
 .skills_head{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 5px;
-    background: rgb(35,38,47);
+    /* background: rgb(35,38,47); */
 }
 #skil_icon{
     font-size: 25px;
@@ -375,7 +379,7 @@ label #cancel{
 }
 @keyframes bar1{
     to{
-        width: 35%;
+        width: 50%;
     }
 }
 
@@ -418,7 +422,7 @@ label #cancel{
 }
 @keyframes bar4{
     to{
-        width: 90%;
+        width: 88%;
     }
 }
 .skill_level_5{
@@ -432,7 +436,7 @@ label #cancel{
 }
 @keyframes bar5{
     to{
-        width: 80%;
+        width: 75%;
     }
 }
 
@@ -450,10 +454,28 @@ label #cancel{
         width: 25%;
     }
 }
+    .skill_level_7{
+        background: rgb(37,167,144);
+        width: 0%;
+        height: 10px;
+        animation-name: bar7;
+        animation-duration: 6.5s;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+    @keyframes bar7{
+        to{
+            width: 80%;
+        }    
+}
+
+.footer_head{
+    background: rgb(29,32,37);
+}
 
 .footer{
     text-align: center;
-    background: rgb(29,32,37);
+    /* background: rgb(29,32,37); */
     padding: 25px 0 0 0 ;
 }
 
@@ -939,6 +961,9 @@ label #cancel{
         height: 8px;
     }
     .skill_level_6{
+        height: 8px;
+    }
+    .skill_level_7{
         height: 8px;
     }
     .footer{
