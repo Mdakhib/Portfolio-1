@@ -14,6 +14,10 @@ html{
 .background_for_about{
 background: rgb(29,33,36);
 }
+.web_img{
+    height: 100px;
+    width: 100px;
+}
 
 nav{
     height: 90px;
