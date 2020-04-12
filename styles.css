@@ -9,6 +9,7 @@
 
 html{
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 .background_for_about{
   background: rgb(29,33,36);
@@ -483,7 +484,7 @@ label #cancel{
     text-transform: uppercase;
     font-size: 28px;
     font-weight: 700;
-    color: rgb(31, 233, 4);
+    color: rgb(19, 153, 126);
     letter-spacing: 1px;
 }
 
@@ -505,7 +506,7 @@ label #cancel{
     padding: 12px;
     border-radius: 15px;
     color: white;
-    box-shadow:  0 0 5px 5px  rgb(85, 167, 150);
+    box-shadow:  0 0 4px 1px  rgb(85, 167, 150);
     margin-bottom: 13px;
 }
 .btn_spn{
@@ -753,7 +754,7 @@ label #cancel{
     }
 
     nav ul li a{
-        font-size: 19px;
+        font-size: 16px;
         transition: 1s;
     }
     nav ul li a:hover{
@@ -924,7 +925,7 @@ label #cancel{
     }
 
     .center{
-        padding: 40px 20px 20px 30px;
+        padding: 40px 20px 20px 40px;
     }
     
     .software{
@@ -1025,6 +1026,16 @@ label #cancel{
     
 }
 
+@media (max-width:532px){
+    .pd{
+        font-size: 16px;
+    }
+    .pd_1{
+        font-size: 16px;
+        padding: 55px  0 0 38px;
+    }
+}
+
 
 @media (max-width:475px){
     .home .hero_pic{
@@ -1062,7 +1073,7 @@ label #cancel{
             padding: 10px;
         }
         .parah{
-            text-align: center;
+            text-align: start;
             padding: 30px 55px 50px 60px;
             font-size: 17px;
         }
@@ -1077,7 +1088,7 @@ label #cancel{
         }
     
         .pd{
-            font-size: 18px;
+            font-size: 16px;
             line-height: 33px;
             font-weight: 600;
             padding: 0px 0px 0px 15px;
@@ -1096,7 +1107,7 @@ label #cancel{
         }
         .pd_1{
             padding-top: 55px;
-            font-size: 18px;
+            font-size: 16px;
             padding-left: 20px;
             line-height: 33px;
             padding-right: 15px;
@@ -1212,14 +1223,14 @@ label #cancel{
         .pd_flex{
             display: flex;
             justify-content: start;
-            padding: 10px 15px 10px 20px;
+            padding: 10px 15px 10px 10px;
         }
     
         .pd{
             font-size: 15px;
             line-height: 30px;
             font-weight: 600;
-            padding: 0px 15px 0px 0px;
+            padding: 0px 10px 0px 0px;
         }
     
     
@@ -1236,7 +1247,7 @@ label #cancel{
         .pd_1{
             padding-top: 55px;
             font-size: 15px;
-            padding-left: 5px;
+            padding-left: 0px;
             line-height: 30px;
             padding-right: 15px;
         }
