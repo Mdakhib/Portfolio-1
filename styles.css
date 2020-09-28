@@ -394,7 +394,7 @@ label #cancel{
 }
 @keyframes bar1{
     to{
-        width: 50%;
+        width: 80%;
     }
 }
 
@@ -409,7 +409,7 @@ label #cancel{
 }
 @keyframes bar2{
     to{
-        width: 30%;
+        width: 70%;
     }
 }
 .skill_level_3{
@@ -423,7 +423,7 @@ label #cancel{
 }
 @keyframes bar3{
     to{
-        width: 45%;
+        width: 70%;
     }
 }
 .skill_level_4{
@@ -437,7 +437,7 @@ label #cancel{
 }
 @keyframes bar4{
     to{
-        width: 88%;
+        width: 60%;
     }
 }
 .skill_level_5{
@@ -451,7 +451,7 @@ label #cancel{
 }
 @keyframes bar5{
     to{
-        width: 75%;
+        width: 40%;
     }
 }
 
@@ -466,7 +466,7 @@ label #cancel{
 }
 @keyframes bar6{
     to{
-        width: 25%;
+        width: 40%;
     }
 }
     .skill_level_7{
@@ -480,9 +480,29 @@ label #cancel{
     }
     @keyframes bar7{
         to{
-            width: 80%;
+            width: 40%;
         }    
+
+        
 }
+
+    .skill_level_8 {
+        background: rgb(37, 167, 144);
+        width: 0%;
+        height: 10px;
+        animation-name: bar7;
+        animation-duration: 6.5s;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes bar7 {
+        to {
+            width: 80%;
+        }
+
+
+    }
 
 .footer_head{
     background: rgb(29,32,37);
