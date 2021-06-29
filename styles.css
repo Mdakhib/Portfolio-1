@@ -394,7 +394,7 @@ label #cancel{
 }
 @keyframes bar1{
     to{
-        width: 80%;
+        width: 85%;
     }
 }
 
@@ -409,7 +409,7 @@ label #cancel{
 }
 @keyframes bar2{
     to{
-        width: 70%;
+        width: 80%;
     }
 }
 .skill_level_3{
@@ -451,7 +451,7 @@ label #cancel{
 }
 @keyframes bar5{
     to{
-        width: 40%;
+        width: 60%;
     }
 }
 
@@ -466,7 +466,7 @@ label #cancel{
 }
 @keyframes bar6{
     to{
-        width: 40%;
+        width: 65%;
     }
 }
     .skill_level_7{
@@ -480,7 +480,7 @@ label #cancel{
     }
     @keyframes bar7{
         to{
-            width: 40%;
+            width: 55%;
         }    
 
         
@@ -490,13 +490,13 @@ label #cancel{
         background: rgb(37, 167, 144);
         width: 0%;
         height: 10px;
-        animation-name: bar7;
+        animation-name: bar8;
         animation-duration: 6.5s;
         animation-timing-function: ease;
         animation-fill-mode: forwards;
     }
 
-    @keyframes bar7 {
+    @keyframes bar8 {
         to {
             width: 80%;
         }
